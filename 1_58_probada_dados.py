@@ -31,7 +31,7 @@ def to_float(value: Any) -> Optional[float]:
 
 
 # teste=to_float("R$ 45,99")
-# print(teste)
+# print(teste, type(teste))
 
 # Recebe qualquer tipo (Any).
 # Retorna True, False ou None.
@@ -58,3 +58,28 @@ def to_bool(value: Any) -> Optional[bool]:
         # Isso facilita comparar valores como "Sim", " SIM " etc.
         
     return None
+
+# teste=to_bool("s")
+# print(teste, type(teste))
+
+def parse_date(value: Any) -> Optional[str]:
+    # Recebe qualquer tipo (Any)
+    # Tenta converter para data padronizada
+    if value is None or value == "":    
+        return None
+    if isinstance(value, str):
+        for fmt in ("%Y-%m-%d", "%d/%m/%Y", "%d-%m-%Y", "%Y/%m/%d"):
+            # Define lista de formatos aceitos:
+            # 2026-04-26 ISO ; 26/04/2026 BR comum ; 2026/04/26 ; 26-04-2026
+            try:
+                return datetime.strptime(value, fmt).strftime("%Y-%m-%d")
+                # strptime converte string em objeto de data
+                # fmt define como a string está formatada
+                # strftime converte o objeto de volta para string
+            except ValueError:
+                continue
+        return value
+    return None
+
+teste=parse_date("2026/05/04")
+print(teste)
