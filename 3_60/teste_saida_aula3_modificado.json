@@ -1,0 +1,145 @@
+{
+  "tema": "Organizar os dados para entender distribuição e faixas de desempenho",
+  "problema_financeiro": "O empreendedor vê números soltos, mas não enxerga faixas de valor, frequência ou concentração.",
+  "calculos": {
+    "tabela_frequencia_categoria": [
+      {
+        "valor": "Infraestrutura",
+        "frequencia": 5,
+        "percentual": 20.83
+      },
+      {
+        "valor": "Economia",
+        "frequencia": 3,
+        "percentual": 12.5
+      },
+      {
+        "valor": "Esportes",
+        "frequencia": 3,
+        "percentual": 12.5
+      },
+      {
+        "valor": "Governo",
+        "frequencia": 3,
+        "percentual": 12.5
+      },
+      {
+        "valor": "Sociedade",
+        "frequencia": 3,
+        "percentual": 12.5
+      },
+      {
+        "valor": "Tecnologia",
+        "frequencia": 2,
+        "percentual": 8.33
+      },
+      {
+        "valor": "Marketing",
+        "frequencia": 1,
+        "percentual": 4.17
+      },
+      {
+        "valor": "Salarios",
+        "frequencia": 1,
+        "percentual": 4.17
+      },
+      {
+        "valor": "Imposto",
+        "frequencia": 1,
+        "percentual": 4.17
+      },
+      {
+        "valor": "Energia",
+        "frequencia": 1,
+        "percentual": 4.17
+      }
+    ],
+    "tabela_frequencia_forma_pagamento": [
+      {
+        "valor": "pix",
+        "frequencia": 9,
+        "percentual": 37.5
+      },
+      {
+        "valor": "assinatura",
+        "frequencia": 8,
+        "percentual": 33.33
+      },
+      {
+        "valor": "transferencia",
+        "frequencia": 6,
+        "percentual": 25.0
+      },
+      {
+        "valor": "cartao",
+        "frequencia": 1,
+        "percentual": 4.17
+      }
+    ],
+    "tabela_contingencia_categoria_pagamento": {
+      "Economia": {
+        "assinatura": 3
+      },
+      "Infraestrutura": {
+        "transferencia": 5
+      },
+      "Esportes": {
+        "assinatura": 2,
+        "pix": 1
+      },
+      "Marketing": {
+        "cartao": 1
+      },
+      "Governo": {
+        "pix": 3
+      },
+      "Tecnologia": {
+        "pix": 2
+      },
+      "Sociedade": {
+        "assinatura": 3
+      },
+      "Salarios": {
+        "transferencia": 1
+      },
+      "Imposto": {
+        "pix": 1
+      },
+      "Energia": {
+        "pix": 1
+      }
+    },
+    "quartis_receita_diaria": {
+      "q1": 0.0,
+      "q2_mediana": 0.0,
+      "q3": 0.0
+    },
+    "quartis_lucro_diario": {
+      "q1": -2150.0,
+      "q2_mediana": -1150.0,
+      "q3": -875.0
+    },
+    "decis_ticket": {
+      "d1": null,
+      "d2": null,
+      "d3": null,
+      "d4": null,
+      "d5": null,
+      "d6": null,
+      "d7": null,
+      "d8": null,
+      "d9": null
+    },
+    "percentis_ticket": {
+      "p10": null,
+      "p25": null,
+      "p50": null,
+      "p75": null,
+      "p90": null
+    }
+  },
+  "insights": [
+    "As tabelas ajudam a descobrir onde há maior concentração de receitas, despesas e formas de pagamento.",
+    "Quartis, decis e percentis permitem segmentar clientes, tickets e períodos do negócio."
+  ]
+}

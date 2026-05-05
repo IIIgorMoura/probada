@@ -1,0 +1,39 @@
+{
+  "negocio": {
+    "nome": "Portal Notícias Brasil",
+    "segmento": "Mídia e Informação",
+    "cidade": "Brasília"
+  },
+  "recepcao": {
+    "origem": "coleta_api",
+    "observacao": "Exemplo de dados coletados para análise estatística de notícias"
+  },
+  "dados": {
+    "transacoes": [
+      {"id": "T001", "data": "2026-04-01", "tipo": "noticia", "categoria": "Economia", "valor": 3200, "cliente": "Leitor A", "forma_pagamento": "assinatura", "pago_no_prazo": true, "desconto": 0, "marketing": 50},
+      {"id": "T002", "data": "2026-04-01", "tipo": "despesa", "categoria": "Infraestrutura", "valor": 1200, "forma_pagamento": "transferencia", "pago_no_prazo": true, "desconto": 0, "marketing": 0},
+      {"id": "T003", "data": "2026-04-02", "tipo": "noticia", "categoria": "Esportes", "valor": 2800, "cliente": "Leitor B", "forma_pagamento": "assinatura", "pago_no_prazo": true, "desconto": 100, "marketing": 70},
+      {"id": "T004", "data": "2026-04-02", "tipo": "despesa", "categoria": "Marketing", "valor": 800, "forma_pagamento": "cartao", "pago_no_prazo": true, "desconto": 0, "marketing": 0},
+      {"id": "T005", "data": "2026-04-03", "tipo": "noticia", "categoria": "Governo", "valor": 4500, "cliente": "Leitor C", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 50, "marketing": 100},
+      {"id": "T006", "data": "2026-04-03", "tipo": "despesa", "categoria": "Tecnologia", "valor": 600, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0, "marketing": 0},
+      {"id": "T007", "data": "2026-04-04", "tipo": "noticia", "categoria": "Sociedade", "valor": 1500, "cliente": "Leitor D", "forma_pagamento": "assinatura", "pago_no_prazo": false, "desconto": 150, "marketing": 30},
+      {"id": "T008", "data": "2026-04-04", "tipo": "despesa", "categoria": "Infraestrutura", "valor": 900, "forma_pagamento": "transferencia", "pago_no_prazo": false, "desconto": 0, "marketing": 0},
+      {"id": "T009", "data": "2026-04-05", "tipo": "noticia", "categoria": "Economia", "valor": 5200, "cliente": "Leitor E", "forma_pagamento": "assinatura", "pago_no_prazo": true, "desconto": 0, "marketing": 120},
+      {"id": "T010", "data": "2026-04-05", "tipo": "despesa", "categoria": "Salarios", "valor": 2000, "forma_pagamento": "transferencia", "pago_no_prazo": true, "desconto": 0, "marketing": 0},
+      {"id": "T011", "data": "2026-04-06", "tipo": "noticia", "categoria": "Esportes", "valor": 6100, "cliente": "Leitor F", "forma_pagamento": "assinatura", "pago_no_prazo": true, "desconto": 200, "marketing": 150},
+      {"id": "T012", "data": "2026-04-06", "tipo": "despesa", "categoria": "Imposto", "valor": 1400, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0, "marketing": 0},
+      {"id": "T013", "data": "2026-04-07", "tipo": "noticia", "categoria": "Sociedade", "valor": 900, "cliente": "Leitor G", "forma_pagamento": "assinatura", "pago_no_prazo": false, "desconto": 100, "marketing": 20},
+      {"id": "T014", "data": "2026-04-07", "tipo": "despesa", "categoria": "Tecnologia", "valor": 1100, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0, "marketing": 0},
+      {"id": "T015", "data": "2026-04-08", "tipo": "noticia", "categoria": "Governo", "valor": 7000, "cliente": "Leitor H", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0, "marketing": 200},
+      {"id": "T016", "data": "2026-04-08", "tipo": "despesa", "categoria": "Infraestrutura", "valor": 2600, "forma_pagamento": "transferencia", "pago_no_prazo": true, "desconto": 0, "marketing": 0},
+      {"id": "T017", "data": "2026-04-09", "tipo": "noticia", "categoria": "Economia", "valor": 4100, "cliente": "Leitor I", "forma_pagamento": "assinatura", "pago_no_prazo": true, "desconto": 50, "marketing": 90},
+      {"id": "T018", "data": "2026-04-09", "tipo": "despesa", "categoria": "Energia", "valor": 950, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0, "marketing": 0},
+      {"id": "T019", "data": "2026-04-10", "tipo": "noticia", "categoria": "Esportes", "valor": 8300, "cliente": "Leitor J", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0, "marketing": 250},
+      {"id": "T020", "data": "2026-04-10", "tipo": "despesa", "categoria": "Infraestrutura", "valor": 3100, "forma_pagamento": "transferencia", "pago_no_prazo": true, "desconto": 0, "marketing": 0},
+      {"id": "T021", "data": "2026-04-11", "tipo": "noticia", "categoria": "Sociedade", "valor": 2600, "cliente": "Leitor K", "forma_pagamento": "assinatura", "pago_no_prazo": false, "desconto": 120, "marketing": 60},
+      {"id": "T022", "data": "2026-04-11", "tipo": "despesa", "categoria": "Comissao", "valor": 700, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0, "marketing": 0},
+      {"id": "T023", "data": "2026-04-12", "tipo": "noticia", "categoria": "Governo", "valor": 9800, "cliente": "Leitor L", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0, "marketing": 300},
+      {"id": "T024", "data": "2026-04-12", "tipo": "despesa", "categoria": "Infraestrutura", "valor": 3900, "forma_pagamento": "transferencia", "pago_no_prazo": true, "desconto": 0, "marketing": 0}
+    ]
+  }
+}
