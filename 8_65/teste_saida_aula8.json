@@ -1,0 +1,110 @@
+{
+  "tema": "Detectar anomalias e apresentar insights visuais para decisão",
+  "problema_financeiro": "O empreendedor precisa receber resultados claros, acionáveis e prontos para decisão.",
+  "calculos": {
+    "kpis_finais": {
+      "receita_total": 5600.5,
+      "despesa_total": 1925.0,
+      "lucro_total": 3675.5,
+      "margem_lucro": 0.6563,
+      "ticket_medio": 466.7083,
+      "probabilidade_atraso_pagamento": 0.1667,
+      "probabilidade_lucro_negativo": 0.0833
+    },
+    "alertas": [],
+    "top_categorias": [
+      {
+        "valor": "Venda",
+        "frequencia": 12,
+        "percentual": 50.0
+      },
+      {
+        "valor": "Estoque",
+        "frequencia": 5,
+        "percentual": 20.83
+      },
+      {
+        "valor": "Frete",
+        "frequencia": 2,
+        "percentual": 8.33
+      },
+      {
+        "valor": "Marketing",
+        "frequencia": 1,
+        "percentual": 4.17
+      },
+      {
+        "valor": "Aluguel",
+        "frequencia": 1,
+        "percentual": 4.17
+      }
+    ],
+    "dados_prontos_para_graficos": {
+      "receita_diaria": [
+        320.5,
+        280.0,
+        450.0,
+        150.0,
+        520.0,
+        610.0,
+        90.0,
+        700.0,
+        410.0,
+        830.0,
+        260.0,
+        980.0
+      ],
+      "despesa_diaria": [
+        120.0,
+        80.0,
+        60.0,
+        90.0,
+        200.0,
+        140.0,
+        110.0,
+        260.0,
+        95.0,
+        310.0,
+        70.0,
+        390.0
+      ],
+      "lucro_diario": [
+        200.5,
+        200.0,
+        390.0,
+        60.0,
+        320.0,
+        470.0,
+        -20.0,
+        440.0,
+        315.0,
+        520.0,
+        190.0,
+        590.0
+      ],
+      "vendas_qtd_diaria": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "normas_e_legislacao_nota": "Os resultados devem ser utilizados respeitando privacidade, finalidade dos dados, transparência analítica e normas vigentes aplicáveis ao contexto do negócio."
+  },
+  "insights": [
+    "Receita total do período: R$ 5600.50",
+    "Despesa total do período: R$ 1925.00",
+    "Lucro total do período: R$ 3675.50",
+    "Ticket médio: R$ 466.71",
+    "Melhor modelo discreto observado: poisson.",
+    "Melhor modelo contínuo observado: uniforme."
+  ]
+}

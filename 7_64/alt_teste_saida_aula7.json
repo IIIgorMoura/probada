@@ -1,0 +1,92 @@
+{
+  "tema": "Preparar dados reais para gerar insights confiáveis",
+  "problema_financeiro": "Os dados reais chegam com ruídos, lacunas e escalas diferentes, o que compromete a análise.",
+  "calculos": {
+    "lacunas_transacoes": {},
+    "outliers_ticket": {
+      "q1": 306.475,
+      "q3": 752.5,
+      "iqr": 446.025,
+      "limite_inferior": -362.5624999999999,
+      "limite_superior": 1421.5375,
+      "indices_outliers": [],
+      "valores_outliers": []
+    },
+    "outliers_lucro": {
+      "q1": 218.975,
+      "q3": 551.25,
+      "iqr": 332.275,
+      "limite_inferior": -279.4375,
+      "limite_superior": 1049.6625,
+      "indices_outliers": [],
+      "valores_outliers": []
+    },
+    "normalizacao_receita_preview": [
+      0.3154,
+      0.1864,
+      0.4382,
+      0.0566,
+      0.5393,
+      0.6629,
+      0.0,
+      0.809,
+      0.3657,
+      0.9101
+    ],
+    "padronizacao_receita_preview": [
+      -0.4274,
+      -0.8166,
+      -0.0572,
+      -1.2081,
+      0.2478,
+      0.6206,
+      -1.3789,
+      1.0611,
+      -0.2758,
+      1.3661
+    ],
+    "normalizacao_lucro_preview": [
+      0.3742,
+      0.3236,
+      0.7373,
+      0.0515,
+      0.5932,
+      0.9237,
+      0.0,
+      0.9153,
+      0.5686,
+      0.9661
+    ],
+    "padronizacao_lucro_preview": [
+      -0.5538,
+      -0.6983,
+      0.4828,
+      -1.4749,
+      0.0716,
+      1.0151,
+      -1.622,
+      0.9909,
+      0.0014,
+      1.1361
+    ],
+    "selecao_de_recursos_por_correlacao": {
+      "correlacoes_com_lucro": {
+        "clientes": null,
+        "marketing": 0.9224,
+        "desconto_medio": -0.6096,
+        "vendas_qtd": null,
+        "despesa": 0.656
+      },
+      "atributos_selecionados": [
+        "marketing",
+        "desconto_medio",
+        "despesa"
+      ]
+    },
+    "tlc_nota": "Com amostras suficientemente grandes, a distribuição da média amostral tende à normalidade."
+  },
+  "insights": [
+    "Esta fase limpa a base e prepara os dados para análises mais confiáveis.",
+    "Também indica quais variáveis parecem mais úteis para prever ou explicar o lucro."
+  ]
+}

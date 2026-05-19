@@ -1,0 +1,39 @@
+{
+  "negocio": {
+    "nome": "Grão & Aroma Cafeteria",
+    "segmento": "Alimentação",
+    "cidade": "Belo Horizonte"
+  },
+  "recepcao": {
+    "origem": "sistema_pdv",
+    "observacao": "Dados atualizados para análise de fluxo de caixa do segundo trimestre"
+  },
+  "dados": {
+    "transacoes": [
+      {"id": "T101", "data": "2026-05-01", "tipo": "receita", "categoria": "Venda", "valor": 45.90, "cliente": "Alice Silva", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 5.0},
+      {"id": "T102", "data": "2026-05-01", "tipo": "despesa", "categoria": "Estoque", "valor": 550.00, "forma_pagamento": "boleto", "pago_no_prazo": true, "desconto": 25.00, "marketing": 0.0},
+      {"id": "T103", "data": "2026-05-02", "tipo": "receita", "categoria": "Venda", "valor": 112.00, "cliente": "Bruno Costa", "forma_pagamento": "cartao", "pago_no_prazo": true, "desconto": 5.00, "marketing": 12.0},
+      {"id": "T104", "data": "2026-05-02", "tipo": "despesa", "categoria": "Marketing", "valor": 200.00, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T105", "data": "2026-05-03", "tipo": "receita", "categoria": "Venda", "valor": 89.00, "cliente": "Carla Souza", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 8.0},
+      {"id": "T106", "data": "2026-05-03", "tipo": "despesa", "categoria": "Frete", "valor": 35.00, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T107", "data": "2026-05-04", "tipo": "receita", "categoria": "Venda", "valor": 210.00, "cliente": "Daniel Lima", "forma_pagamento": "boleto", "pago_no_prazo": false, "desconto": 0.00, "marketing": 15.0},
+      {"id": "T108", "data": "2026-05-04", "tipo": "despesa", "categoria": "Estoque", "valor": 420.00, "forma_pagamento": "boleto", "pago_no_prazo": false, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T109", "data": "2026-05-05", "tipo": "receita", "categoria": "Venda", "valor": 65.00, "cliente": "Eduarda Mel", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 2.00, "marketing": 6.0},
+      {"id": "T110", "data": "2026-05-05", "tipo": "despesa", "categoria": "Aluguel", "valor": 2500.00, "forma_pagamento": "boleto", "pago_no_prazo": true, "desconto": 100.00, "marketing": 0.0},
+      {"id": "T111", "data": "2026-05-06", "tipo": "receita", "categoria": "Venda", "valor": 140.00, "cliente": "Fabio Junior", "forma_pagamento": "cartao", "pago_no_prazo": true, "desconto": 10.00, "marketing": 14.0},
+      {"id": "T112", "data": "2026-05-06", "tipo": "despesa", "categoria": "Imposto", "valor": 320.00, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T113", "data": "2026-05-07", "tipo": "receita", "categoria": "Venda", "valor": 30.00, "cliente": "Gabriela Paz", "forma_pagamento": "boleto", "pago_no_prazo": false, "desconto": 0.00, "marketing": 2.0},
+      {"id": "T114", "data": "2026-05-07", "tipo": "despesa", "categoria": "Frete", "valor": 45.00, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T115", "data": "2026-05-08", "tipo": "receita", "categoria": "Venda", "valor": 1200.00, "cliente": "Buffet Festas", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 50.00, "marketing": 100.0},
+      {"id": "T116", "data": "2026-05-08", "tipo": "despesa", "categoria": "Estoque", "valor": 890.00, "forma_pagamento": "boleto", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T117", "data": "2026-05-09", "tipo": "receita", "categoria": "Venda", "valor": 95.00, "cliente": "Igor Mota", "forma_pagamento": "cartao", "pago_no_prazo": true, "desconto": 0.00, "marketing": 10.0},
+      {"id": "T118", "data": "2026-05-09", "tipo": "despesa", "categoria": "Energia", "valor": 415.00, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T119", "data": "2026-05-10", "tipo": "receita", "categoria": "Venda", "valor": 75.00, "cliente": "Julia Luz", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 7.0},
+      {"id": "T120", "data": "2026-05-10", "tipo": "despesa", "categoria": "Estoque", "valor": 150.00, "forma_pagamento": "boleto", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T121", "data": "2026-05-11", "tipo": "receita", "categoria": "Venda", "valor": 22.00, "cliente": "Kevin Doe", "forma_pagamento": "boleto", "pago_no_prazo": false, "desconto": 0.00, "marketing": 1.0},
+      {"id": "T122", "data": "2026-05-11", "tipo": "despesa", "categoria": "Comissao", "valor": 120.00, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T123", "data": "2026-05-12", "tipo": "receita", "categoria": "Venda", "valor": 340.00, "cliente": "Lara Silva", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 15.00, "marketing": 30.0},
+      {"id": "T124", "data": "2026-05-12", "tipo": "despesa", "categoria": "Estoque", "valor": 210.00, "forma_pagamento": "boleto", "pago_no_prazo": true, "desconto": 5.00, "marketing": 0.0}
+    ]
+  }
+}

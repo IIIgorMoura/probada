@@ -1,0 +1,92 @@
+{
+  "tema": "Preparar dados reais para gerar insights confiáveis",
+  "problema_financeiro": "Os dados reais chegam com ruídos, lacunas e escalas diferentes, o que compromete a análise.",
+  "calculos": {
+    "lacunas_transacoes": {},
+    "outliers_ticket": {
+      "q1": 275.0,
+      "q3": 632.5,
+      "iqr": 357.5,
+      "limite_inferior": -261.25,
+      "limite_superior": 1168.75,
+      "indices_outliers": [],
+      "valores_outliers": []
+    },
+    "outliers_lucro": {
+      "q1": 197.5,
+      "q3": 447.5,
+      "iqr": 250.0,
+      "limite_inferior": -177.5,
+      "limite_superior": 822.5,
+      "indices_outliers": [],
+      "valores_outliers": []
+    },
+    "normalizacao_receita_preview": [
+      0.259,
+      0.2135,
+      0.4045,
+      0.0674,
+      0.4831,
+      0.5843,
+      0.0,
+      0.6854,
+      0.3596,
+      0.8315
+    ],
+    "padronizacao_receita_preview": [
+      -0.5362,
+      -0.6847,
+      -0.0613,
+      -1.1614,
+      0.1954,
+      0.5255,
+      -1.3815,
+      0.8555,
+      -0.208,
+      1.3323
+    ],
+    "normalizacao_lucro_preview": [
+      0.3615,
+      0.3607,
+      0.6721,
+      0.1311,
+      0.5574,
+      0.8033,
+      0.0,
+      0.7541,
+      0.5492,
+      0.8852
+    ],
+    "padronizacao_lucro_preview": [
+      -0.5683,
+      -0.5709,
+      0.4496,
+      -1.3229,
+      0.0736,
+      0.8794,
+      -1.7527,
+      0.7182,
+      0.0468,
+      1.1479
+    ],
+    "selecao_de_recursos_por_correlacao": {
+      "correlacoes_com_lucro": {
+        "clientes": null,
+        "marketing": 0.9374,
+        "desconto_medio": -0.4015,
+        "vendas_qtd": null,
+        "despesa": 0.7132
+      },
+      "atributos_selecionados": [
+        "marketing",
+        "desconto_medio",
+        "despesa"
+      ]
+    },
+    "tlc_nota": "Com amostras suficientemente grandes, a distribuição da média amostral tende à normalidade."
+  },
+  "insights": [
+    "Esta fase limpa a base e prepara os dados para análises mais confiáveis.",
+    "Também indica quais variáveis parecem mais úteis para prever ou explicar o lucro."
+  ]
+}

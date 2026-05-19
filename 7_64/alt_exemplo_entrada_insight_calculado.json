@@ -1,0 +1,39 @@
+{
+  "negocio": {
+    "nome": "Mercado Nova Era",
+    "segmento": "Alimentação",
+    "cidade": "Santo André"
+  },
+  "recepcao": {
+    "origem": "landing_page",
+    "observacao": "Base simulada para análise financeira e testes de indicadores"
+  },
+  "dados": {
+    "transacoes": [
+      {"id": "T001", "data": "2026-05-01", "tipo": "receita", "categoria": "Venda", "valor": 410.75, "cliente": "Cliente Alpha", "forma_pagamento": "cartao", "pago_no_prazo": true, "desconto": 5.00, "marketing": 18.0},
+      {"id": "T002", "data": "2026-05-01", "tipo": "despesa", "categoria": "Fornecedor", "valor": 180.00, "forma_pagamento": "boleto", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T003", "data": "2026-05-02", "tipo": "receita", "categoria": "Venda", "valor": 295.90, "cliente": "Cliente Beta", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 12.00, "marketing": 22.0},
+      {"id": "T004", "data": "2026-05-02", "tipo": "despesa", "categoria": "Publicidade", "valor": 95.00, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T005", "data": "2026-05-03", "tipo": "receita", "categoria": "Venda", "valor": 520.00, "cliente": "Cliente Gamma", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 8.00, "marketing": 45.0},
+      {"id": "T006", "data": "2026-05-03", "tipo": "despesa", "categoria": "Logistica", "valor": 75.00, "forma_pagamento": "cartao", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T007", "data": "2026-05-04", "tipo": "receita", "categoria": "Venda", "valor": 180.40, "cliente": "Cliente Delta", "forma_pagamento": "boleto", "pago_no_prazo": false, "desconto": 20.00, "marketing": 12.0},
+      {"id": "T008", "data": "2026-05-04", "tipo": "despesa", "categoria": "Fornecedor", "valor": 140.00, "forma_pagamento": "boleto", "pago_no_prazo": false, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T009", "data": "2026-05-05", "tipo": "receita", "categoria": "Venda", "valor": 610.00, "cliente": "Cliente Epsilon", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 60.0},
+      {"id": "T010", "data": "2026-05-05", "tipo": "despesa", "categoria": "Aluguel", "valor": 250.00, "forma_pagamento": "boleto", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T011", "data": "2026-05-06", "tipo": "receita", "categoria": "Venda", "valor": 720.00, "cliente": "Cliente Zeta", "forma_pagamento": "cartao", "pago_no_prazo": true, "desconto": 18.00, "marketing": 72.0},
+      {"id": "T012", "data": "2026-05-06", "tipo": "despesa", "categoria": "Tributos", "valor": 165.00, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T013", "data": "2026-05-07", "tipo": "receita", "categoria": "Venda", "valor": 130.00, "cliente": "Cliente Eta", "forma_pagamento": "boleto", "pago_no_prazo": false, "desconto": 15.00, "marketing": 8.0},
+      {"id": "T014", "data": "2026-05-07", "tipo": "despesa", "categoria": "Entrega", "valor": 120.00, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T015", "data": "2026-05-08", "tipo": "receita", "categoria": "Venda", "valor": 850.00, "cliente": "Cliente Theta", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 88.0},
+      {"id": "T016", "data": "2026-05-08", "tipo": "despesa", "categoria": "Fornecedor", "valor": 300.00, "forma_pagamento": "boleto", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T017", "data": "2026-05-09", "tipo": "receita", "categoria": "Venda", "valor": 455.50, "cliente": "Cliente Iota", "forma_pagamento": "cartao", "pago_no_prazo": true, "desconto": 7.00, "marketing": 38.0},
+      {"id": "T018", "data": "2026-05-09", "tipo": "despesa", "categoria": "Energia", "valor": 110.00, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T019", "data": "2026-05-10", "tipo": "receita", "categoria": "Venda", "valor": 940.00, "cliente": "Cliente Kappa", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 95.0},
+      {"id": "T020", "data": "2026-05-10", "tipo": "despesa", "categoria": "Fornecedor", "valor": 360.00, "forma_pagamento": "boleto", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T021", "data": "2026-05-11", "tipo": "receita", "categoria": "Venda", "valor": 310.00, "cliente": "Cliente Lambda", "forma_pagamento": "boleto", "pago_no_prazo": false, "desconto": 10.00, "marketing": 25.0},
+      {"id": "T022", "data": "2026-05-11", "tipo": "despesa", "categoria": "Comissao", "valor": 85.00, "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0},
+      {"id": "T023", "data": "2026-05-12", "tipo": "receita", "categoria": "Venda", "valor": 1020.00, "cliente": "Cliente Mu", "forma_pagamento": "pix", "pago_no_prazo": true, "desconto": 0.00, "marketing": 120.0},
+      {"id": "T024", "data": "2026-05-12", "tipo": "despesa", "categoria": "Fornecedor", "valor": 420.00, "forma_pagamento": "boleto", "pago_no_prazo": true, "desconto": 0.00, "marketing": 0.0}
+    ]
+  }
+}
